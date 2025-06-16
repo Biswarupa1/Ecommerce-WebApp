@@ -1,0 +1,73 @@
+@charset "UTF-8";
+		*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+             background: #f4f3f1; 
+        }
+        .container{
+            height: 100vh;
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .signin{
+            /* border: 2px solid black; */
+            border-radius: 5px;
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+            box-shadow:  0px 10px 10px rgb(218, 219, 219);
+        }
+        h2{
+            margin-bottom: 8px;
+        }
+        .field{
+            padding: 7px;
+            border-radius: 4px;
+            border: 1px solid black;
+            margin-bottom: 15px;
+            outline: none;
+        }
+        .btn{
+            width: 100%;
+            padding: 7px;
+            border: none;
+            border-radius: 15px;
+            color: white;
+            background-color: #3865ee;
+            margin-bottom: 8px;
+        }
+        .signup{
+            font-size: 15px;
+            text-decoration: none;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 15px;
+            padding: 4px;
+            background-color: white;
+            color: black;
+        }
+        span{
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .signupPage{
+            padding: 20px;
+        }
+        .mesg{
+            border: none;
+        }
+        .dlt-btn{
+        	text-decoration: none;
+        	height: 50px;
+        	width: 50px;
+        	
+        }

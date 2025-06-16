@@ -1,0 +1,25 @@
+@charset "UTF-8";
+  .nav{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      background-color: #0d3ac2; 
+      padding: 20px;
+      font-size: 20px;
+  }
+  .home a{
+  	text-decoration: none;
+      color: white;
+  }
+  span{
+      color: white; 
+  }
+  .option a{
+      text-decoration: none;
+      color: white; 
+      margin-right: 15px;
+  }
+  .logout a{
+      text-decoration: none;
+      color: white; 
+  }
